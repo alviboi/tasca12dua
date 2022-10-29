@@ -1,5 +1,5 @@
 ---
-title: "TASCA 2"
+title: "Accesibilidad en el centro educativo"
 author: [Alfredo Rafael Vicente Boix ]
 date: "2022-10-30"
 subject: "Proxmox"
@@ -34,9 +34,15 @@ pandoc-latex-environment:
 
 <!-- \awesomebox[violet]{2pt}{\faRocket}{violet}{Lorem ipsum…} -->
 
-EXPERIENCIA DE AULA
+\vspace*{\fill}
 
-alumne lliurex123
+![](img/cc.png){ height=50px }
+
+
+Este trabajo así como el código que aparece en él está sujeto a una licencia creative commons que permite su difusión uso comercial reconociendo siempre la autoría de su creador. Este documento se encuentra para poder ser modificado en el siguiente repositorio de github:
+<!-- CANVIAR L'ENLLAÇ -->
+[https://github.com/alviboi/tasca12dua](https://github.com/alviboi/tasca12dua)
+\newpage
 
 # Introducción
 
@@ -60,7 +66,7 @@ Vamos a llamar a los dos proyectos de la siguiente manera:
 
 **Guacamole**: Existe un curso que imparto que se llama LliureX para la tarea docente. LliureX es el sistema operativo que se usa en los centros de la Comunidad Valenciana, el sistema operativo es muy sencillo de utilizar pero si eres nuevo en la docencia requieres de un perqueño curso para familiarizarte y aprender un poco como funciona. El problema es que muchos docentes (y más si están aprendiendo) no tienen ese SO en casa y no es objeto del curso su instalación, ni su configuración. Y en el centro, las tareas que deben de realizar son las de docente. No existen horas libres para facilitar la realización del curso en los ordenadores del centro educativo al que están adscritos.
 
-# Descripción detallada de la experiencia: proyecto, metodología, tareas realizadas por los alumnos, organización del aula...
+## Descripción detallada de la experiencia
 
 **Iconos**: El acceso realizado a las instalaciones ha facilitado la fluidez de las personas que acceden facilitando su orientación dentro del centro.
 En el caso de 
@@ -73,11 +79,15 @@ Como ejemplo se proporciona el usuario: **alumne** con contraseña **lliurex123*
 Es necesario aceptar el certificado ssl, es un certificado propio, por eso el navegador no lo reconoce como válido. El dominio alviboi está registrado a mi nombre (**Al**fredo **Vi**cente **Bo**ix)
 :::
 
-["Acceder a Guacamole"](https://alviboi.es:8443/guacamole/#/)
+Este es el link para poder acceder a la aplicación:
 
-["Videotutorial sobre cómo usar Apache Guacamole"](https://drive.google.com/file/d/1de3nVW0W02CSj3KulKb5XGAShigOupzA/view?usp=sharing)
+[Acceder a Guacamole](https://alviboi.es:8443/guacamole/#/)
 
-# Evaluación del aprendizaje de los alumnos y de la propia experiencia.
+Aquí tenemos el videotutorial de acceso:
+
+[Videotutorial sobre cómo usar Apache Guacamole](https://drive.google.com/file/d/1de3nVW0W02CSj3KulKb5XGAShigOupzA/view?usp=sharing)
+
+## Evaluación del aprendizaje de los alumnos y de la propia experiencia
 
 En el caso de **Iconos** por experiencia se puede ver cómo la gente ha podido acceder directamente a las instalaciones de la Escuela de adultos sin tener que entrar a despachos a preguntar o estar perdidos por el centro.
 
@@ -85,7 +95,7 @@ En el caso de la aplicación **Guacamole** se ha visto cómo el 40% de las perso
 
 Al final de cada curso se realiza una encuesta, en los últimos años la encuesta ha reflejado el problema existente de no poder realizar las actividades ya que no disponían de tiempo para poder realizarlas en el centro.
 
-# Recursos utilizados
+## Recursos utilizados
 
 La experiencia en el proyecto **Iconos** es grata, y sólo se ha usado la herramientas de ARASAAC para poder generar los pictogramas.
 
@@ -93,45 +103,49 @@ Los recursos utilizados en **Guacamole** han sido, una aplicación informática 
 
 Se ha comprabado cómo el pordentaje de abandono del curso ha disminuido considerblemente en las primeras actividades respecto a años anteriores. El principal problema de este tipo de aplicaciones es que se ha de disponer de algun ordenador conectado a la red, se puede hacer desde tu caso o con al proveedor de servicios. En este caso se estan usando dos ordenadores de un proveedor de servicios y de un ordenador en casa con diferentes máquinas virtuales para poder conectarse.
 
-# Valoración global del proyecto: consecución de los objetivos propuestos, mejora del aprendizaje, capacidad de desarrollar experiencias similares...
+## Valoración global del proyecto
 
 El proyecto de **Iconos** ha sido recibido gratamente por parte de todos los asesores y el profesorado de la Escuela de adultos. Es un sistema que no cuesta nada implantar.
 
 En la aplicación informática, la asistentes del curso se muestran sorprendidos de que una herramienta como esta exista. De hecho este mismo sistema puede crear máquinas virtuales de diferentes sistemas operativos, lo que permite poder usarlas para otros cursos que se necesiten apliciones concretas o que sean difíciles de instalar para los asistentes. De este manera disponen ya de un ordenador con todo lo necesario preinstalado.
 
-# Recomendación final
+## Recomendación final
 
 Respcto al proyecto **Guacamole** existe un montón de documentación al respecto de cómo implantar los diferentes sistemas que he utilizado. Pero no todo el mundo podría replicarlas per se. Hacen falta ciertos conocimientos para poder hacer todo el despliegue. Creo que es importante que todos trabajemos en grupo para poder llevar a cabo proyectos así ya que cada una aporta sus conocimentos. Y al final aportamos lo que más nos gusta hacer y si eso facilita la vida a otras personas mejor que mejor.
 
-# Imágenes del desarrollo de la experiencia en el aula o de los recursos creados
+:::note
+No hablamos del proyecto **iconos** ya que hay poco que aportar en las recomendaciones, es solución directa de un problema.
+:::
 
-![Ordenadores de la aplicación web para poder ser usados](img/1.png)
+## Imágenes del desarrollo de la experiencia en el aula o de los recursos creados
 
-![Entrada a un ordenador (contraseña: lliurexC1RS)](img/2.png)
+![Ordenadores de la aplicación web para poder ser usados](img/1.png){ height=280px }
 
-![Vista de escritorio del ordenador](img/3.png)
+![Entrada a un ordenador (contraseña: lliurexC1RS)](img/2.png){ height=280px }
 
-![Pictograma para la atención a extranjeros](img/4.png)
+![Vista de escritorio del ordenador](img/3.png){ height=280px }
 
-![Pictograma para la asesoría de formación de ciencias](img/5.png)
+![Pictograma para la atención a extranjeros](img/4.png){ height=280px }
 
-![Pictograma para la asesoría de formación de artístico expresivo](img/6.png)
+![Pictograma para la asesoría de formación de ciencias](img/5.png){ height=280px }
 
-![Pictograma para la asesoría de formación del ámbito TIC](img/7.png)
+![Pictograma para la asesoría de formación de artístico expresivo](img/6.png){ height=280px }
 
-![Pictograma para la asesoría de formación de ciencias 2](img/8.png)
+![Pictograma para la asesoría de formación del ámbito TIC](img/7.png){ height=280px }
 
-![Punto de información](img/8.png)
+![Pictograma para la asesoría de formación de ciencias 2](img/8.png){ height=280px }
 
-![Pictograma para la asesoría de formación de inclusión](img/10.png)
+![Punto de información](img/9.png){ height=280px }
 
-![Dirección](img/11.png)
+![Pictograma para la asesoría de formación de inclusión](img/10.png){ height=280px }
 
-![Pictograma para la asesoría de formación profesional](img/12.png)
+![Dirección](img/11.png){ height=280px }
 
-![Pictograma para la asesoría de formación de adultos](img/13.png)
+![Pictograma para la asesoría de formación profesional](img/12.png){ height=280px }
 
-![Pictograma para la asesoría de formación de lenguas](img/14.png)
+![Pictograma para la asesoría de formación de adultos](img/13.png){ height=280px }
+
+![Pictograma para la asesoría de formación de lenguas](img/14.png){ height=280px }
 
 # Material interesante que pueda ayudar a los profesores a replicar la experiencia.
 
