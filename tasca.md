@@ -1,17 +1,18 @@
 ---
-title: "Accesibilidad en el centro educativo"
+title: "Tarea 4"
 author: [Alfredo Rafael Vicente Boix ]
-date: "2022-10-30"
+date: "2022-11-18"
 subject: "Proxmox"
 keywords: [Xarxa, Instal·lació]
-subtitle: "Proyectos realizados"
+subtitle: "Diseño Universal para el Aprendizaje y Aprendizaje Visible"
 lang: "es"
 page-background: "background10.pdf"
 titlepage: true,
 titlepage-rule-color: "360049"
 titlepage-background: "background10.pdf"
 colorlinks: true
-toc-own-page: true
+toc: false
+toc-own-page: false
 header-includes:
 - |
   ```{=latex}
@@ -44,114 +45,18 @@ Este trabajo así como el código que aparece en él está sujeto a una licencia
 [https://github.com/alviboi/tasca12dua](https://github.com/alviboi/tasca12dua)
 \newpage
 
-# Introducción
+# ¿Os imagináis que vais a comprar un pantalón y solo hubiese una talla? ¿Qué aquellos zapatos que tanto te gustan no te caben, te van estrechos o te quedan holgados? Pero te los compras, porque no hay otros y te haces adaptaciones y arreglos para que esos pantalones y zapatos te queden bien. Si esto es inimaginable, ¿cómo es posible que si imaginemos un único currículo para todo el mundo?
 
-Vamos a tratar los dos último proyecto realizados en mi centro. Actualment estoy trabajando en un centro de recursos para el profesorado. Hay dos proyectos que estoy llevando a cabo una de ellos es para facilitar la orientación de las personas que llegan a a las instalaciones, muchos de ellos extranjeros que buscan clases de español para personas extranjeras y otro en uno de los cursos que he organizado. Al fin y al cabo mis alumnos son otros profesores.
+Es muy llamativo el tema de lo que es y no es inimaginable, porque tristemente esto pasa... Y pasa mucho, pero no a todo el mundo. Si tuviésemos que definir de una manera general cómo es una persona, podríamos decir que es un animal con dos brazos, con dos piernas, con diez dedos, etc... Podríamos incluso decir que el tamaño del pie va entre una talla y otra. O que las camisetas son de una talla determinada, S-M-L-XL-XXL. Y así quedará definido.
 
-En el edificio público existen dos instuciones:
+Pero ¿Qué pasa con aquellos que no utilizan una talla mucho más grande que todos los demás? O que usan tallas de ropa diferentes a otras persona. La respuesta es muy dispar, algunos se ven obligados a ir a tiendas "especializadas" para ellos. Otros simplemente no pueden hacer nada, ya que no es rentable crear una talla de zapatos solamente para ellos. ¿Y si tienes una pierna? Pues, tendrás que comprar dos zapatos, aunque no sepas qué hacer con el otro.
 
-* El centro de recursos
-* Una escuela de adultos
+Seguro que en estos momentos en nuestra mente ya se encuentra un paralelismo claro entre la educación y la persona. No todos los alumnos usan las mismas tallas e incluso hay alumnos "con una sola pierna" al que intentamos ponerle dos zapatos.
 
-Vamos a llamar a los dos proyectos de la siguiente manera:
+Y... si todos aquellos que no encuentran su talla, o les falta alguna extremidad, o incluso aquellos que pueden encontrar su talla... ¿pudiesen acudir al un sastre? ¿O a un zapatero? Seguro que pensarían que es la mejor opción, porque... Me puede valer la talla 43, pero me vendría mejor una 43.25, o en lugar de usar la talla XL ¿No podría usar una intermedia entre la L y la XL? El sastre seguro que acogería de buen agrado a todos aquellos que se presentaran en su tienda deseosos de tener unas prendas que realmente le encajaran perfectamente.
 
-* Iconos: Adecuación de la cartelería del centro.
-* Guacamole: facilitar el acceso a los materiales del curso
+Pues con el nuevo currículum estamos creando lo mismo, nosotros somos los *sastres de la educación* donde deberemos hacer todos los retoques necesarios para que las "chaquetas" que queremos poner a los alumnos les adapten perfectamente. Algunos se las deberemos hacer un poco más grandes que a otros. ¡Ah! Y los que necesiten solamente un zapato, no tendremos el porqué de darle el otro... Si solo necesita uno.
 
-# Contenido del artículo
+Seguro que alguien muy avispado dirá: "ya pero eso no es rentable..." Es por eso que hace falta que los sastres se comprometan con su público, que traten de adaptar su sabiduría para que todas las personas puedan vestir buenos trajes y que aquellos que los llevan puedan decir que realmente les quedan bien. Es posible que tenga que cambiar su metodología para poder adaptarse a todos. Incluso en algún momento deberá dar un buen tijeretazo a una pernera del pantalón que no le sirve para nada. Pero el resultado vale la pena.
 
-## Origen de la experiencia
-
-**Iconos**: El problema detectado en este caso son las persona que llegan y no hay nadie para recibirlas y orientarlas a la escuela de adultos que se encuentra en el segundo piso. A parte de eso hay gente que viene a hablar con algún asesor de formación.
-
-**Guacamole**: Existe un curso que imparto que se llama LliureX para la tarea docente. LliureX es el sistema operativo que se usa en los centros de la Comunidad Valenciana, el sistema operativo es muy sencillo de utilizar pero si eres nuevo en la docencia requieres de un perqueño curso para familiarizarte y aprender un poco como funciona. El problema es que muchos docentes (y más si están aprendiendo) no tienen ese SO en casa y no es objeto del curso su instalación, ni su configuración. Y en el centro, las tareas que deben de realizar son las de docente. No existen horas libres para facilitar la realización del curso en los ordenadores del centro educativo al que están adscritos.
-
-## Descripción detallada de la experiencia
-
-**Iconos**: El acceso realizado a las instalaciones ha facilitado la fluidez de las personas que acceden facilitando su orientación dentro del centro.
-En el caso de 
-
-**Guacamole**:  En este caso se implanta una aplicación informática que facilita el accesos a diferentes ordenadores con LliureX para que puedan usar LliureX independientemente del sistema operativo que tengan instalado (IOS, Windows u otras distribuiones GNU/Linux). Los usuarios pueden consultar el siguiente vídeo para poder acceder.
-
-Como ejemplo se proporciona el usuario: **alumne** con contraseña **lliurex123**. Se puede acceder directamente desde el siguiente enlace:
-
-:::warning
-Es necesario aceptar el certificado ssl, es un certificado propio, por eso el navegador no lo reconoce como válido. El dominio alviboi está registrado a mi nombre (**Al**fredo **Vi**cente **Bo**ix)
-:::
-
-Este es el link para poder acceder a la aplicación:
-
-[Acceder a Guacamole](https://alviboi.es:8443/guacamole/#/)
-
-Aquí tenemos el videotutorial de acceso:
-
-[Videotutorial sobre cómo usar Apache Guacamole](https://drive.google.com/file/d/1de3nVW0W02CSj3KulKb5XGAShigOupzA/view?usp=sharing)
-
-## Evaluación del aprendizaje de los alumnos y de la propia experiencia
-
-En el caso de **Iconos** por experiencia se puede ver cómo la gente ha podido acceder directamente a las instalaciones de la Escuela de adultos sin tener que entrar a despachos a preguntar o estar perdidos por el centro.
-
-En el caso de la aplicación **Guacamole** se ha visto cómo el 40% de las persona que ha usado el curso han accedido al sistema para poder realizar las actividades. Mucha gente que se apunta al curso ya tiene un ordenador con LLiureX en casa o utiliza máquinas virtuales. El problema de esto es que no todo el mundo tiene la destreza para poder implantarse este sistema o conoce a alguien que le ayude.
-
-Al final de cada curso se realiza una encuesta, en los últimos años la encuesta ha reflejado el problema existente de no poder realizar las actividades ya que no disponían de tiempo para poder realizarlas en el centro.
-
-## Recursos utilizados
-
-La experiencia en el proyecto **Iconos** es grata, y sólo se ha usado la herramientas de ARASAAC para poder generar los pictogramas.
-
-Los recursos utilizados en **Guacamole** han sido, una aplicación informática que permite crear conexiones VNC con otros ordenadores en la red. A parte de todas las aplicaciones asociadas al despliegue en web: Tomcat, Mysql, Nginx, etc...
-
-Se ha comprabado cómo el pordentaje de abandono del curso ha disminuido considerblemente en las primeras actividades respecto a años anteriores. El principal problema de este tipo de aplicaciones es que se ha de disponer de algun ordenador conectado a la red, se puede hacer desde tu caso o con al proveedor de servicios. En este caso se estan usando dos ordenadores de un proveedor de servicios y de un ordenador en casa con diferentes máquinas virtuales para poder conectarse.
-
-## Valoración global del proyecto
-
-El proyecto de **Iconos** ha sido recibido gratamente por parte de todos los asesores y el profesorado de la Escuela de adultos. Es un sistema que no cuesta nada implantar.
-
-En la aplicación informática, la asistentes del curso se muestran sorprendidos de que una herramienta como esta exista. De hecho este mismo sistema puede crear máquinas virtuales de diferentes sistemas operativos, lo que permite poder usarlas para otros cursos que se necesiten apliciones concretas o que sean difíciles de instalar para los asistentes. De este manera disponen ya de un ordenador con todo lo necesario preinstalado.
-
-## Recomendación final
-
-Respcto al proyecto **Guacamole** existe un montón de documentación al respecto de cómo implantar los diferentes sistemas que he utilizado. Pero no todo el mundo podría replicarlas per se. Hacen falta ciertos conocimientos para poder hacer todo el despliegue. Creo que es importante que todos trabajemos en grupo para poder llevar a cabo proyectos así ya que cada una aporta sus conocimentos. Y al final aportamos lo que más nos gusta hacer y si eso facilita la vida a otras personas mejor que mejor.
-
-:::note
-No hablamos del proyecto **iconos** ya que hay poco que aportar en las recomendaciones, es solución directa de un problema.
-:::
-
-## Imágenes del desarrollo de la experiencia en el aula o de los recursos creados
-
-![Ordenadores de la aplicación web para poder ser usados](img/1.png){ height=280px }
-
-![Entrada a un ordenador (contraseña: lliurexC1RS)](img/2.png){ height=280px }
-
-![Vista de escritorio del ordenador](img/3.png){ height=280px }
-
-![Pictograma para la atención a extranjeros](img/4.png){ height=280px }
-
-![Pictograma para la asesoría de formación de ciencias](img/5.png){ height=280px }
-
-![Pictograma para la asesoría de formación de artístico expresivo](img/6.png){ height=280px }
-
-![Pictograma para la asesoría de formación del ámbito TIC](img/7.png){ height=280px }
-
-![Pictograma para la asesoría de formación de ciencias 2](img/8.png){ height=280px }
-
-![Punto de información](img/9.png){ height=280px }
-
-![Pictograma para la asesoría de formación de inclusión](img/10.png){ height=280px }
-
-![Dirección](img/11.png){ height=280px }
-
-![Pictograma para la asesoría de formación profesional](img/12.png){ height=280px }
-
-![Pictograma para la asesoría de formación de adultos](img/13.png){ height=280px }
-
-![Pictograma para la asesoría de formación de lenguas](img/14.png){ height=280px }
-
-# Material interesante que pueda ayudar a los profesores a replicar la experiencia.
-
-(@) https://guacamole.apache.org/
-(@) https://tomcat.apache.org/
-(@) https://www.ionos.es/servidores/vps
-(@) https://arasaac.org/
-
-
+La semilla de todo ello ya se ha plantado con la LOMLOE, hace falta ese pequeño gran compromiso para que todos nos podamos enriquecer nuestras aulas y que la educación llegue a todos de la misma manera. Seamos buenos costureros para enmendar todos los defectos que tenemos en nuestra Aula, disponemos de todas las herramientas, ahora hace falta ponerse a coser...
